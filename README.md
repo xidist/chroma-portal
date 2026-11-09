@@ -12,11 +12,11 @@ Reference creator: **[@yulee.co on Instagram](https://www.instagram.com/yulee.co
 
 These are the two reference screenshots supplied for this project, showing the creator's hand-controlled visual effect. They are **inspiration images, not output from Chroma Portal**. This repository contains an independent implementation; it does not contain the creator's patch or source code.
 
-**Original post permalink: pending.** The screenshots show the account name and October 18, but no reel URL or year. The links below currently open the creator's profile. Replace them with the exact Instagram share link when supplied; do not mistake the profile for the original post.
+**[Watch the original Instagram reel](https://www.instagram.com/reel/Deo8YW6qw-M/)** by @yulee.co. Both reference screenshots below link directly to the original post.
 
 <p>
-  <a href="https://www.instagram.com/yulee.co/"><img src="docs/references/IMG_9511.jpeg" width="300" alt="Reference screenshot from @yulee.co: a tilted psychedelic polygon stretched between two tracked hands"></a>
-  <a href="https://www.instagram.com/yulee.co/"><img src="docs/references/IMG_9510.jpeg" width="300" alt="Reference screenshot from @yulee.co: a wide psychedelic window held between thumb and index-finger anchors"></a>
+  <a href="https://www.instagram.com/reel/Deo8YW6qw-M/"><img src="docs/references/IMG_9511.jpeg" width="300" alt="Reference screenshot from @yulee.co: a tilted psychedelic polygon stretched between two tracked hands"></a>
+  <a href="https://www.instagram.com/reel/Deo8YW6qw-M/"><img src="docs/references/IMG_9510.jpeg" width="300" alt="Reference screenshot from @yulee.co: a wide psychedelic window held between thumb and index-finger anchors"></a>
 </p>
 
 Reference imagery belongs to its respective creator/rightsholders; it is not offered as an original project asset or included in any code license.
@@ -115,7 +115,7 @@ python -m unittest discover -s tests -v
 - [ ] Add pinch-to-freeze, with deliberate activation and release thresholds.
 - [ ] Add an audio-reactive palette and border modulation.
 - [ ] Capture an original demo clip and measured frame timings.
-- [ ] Replace the profile reference with the exact original Instagram post URL.
+- [x] Link the reference screenshots to the original Instagram reel.
 
 ## Technical references
 
