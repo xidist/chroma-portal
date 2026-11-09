@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chroma-portal"
+version = "0.1.0"
+description = "A hand-controlled psychedelic webcam window for OpenCV and TouchDesigner"
+requires-python = ">=3.11,<3.13"
+dependencies = ["numpy>=1.26,<3", "opencv-contrib-python>=4.10,<6", "mediapipe>=0.10.20,<2", "python-osc>=1.9,<2"]
+
+[project.scripts]
+chroma-portal = "chroma_portal.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
